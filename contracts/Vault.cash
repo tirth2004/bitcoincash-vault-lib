@@ -1,0 +1,10 @@
+// Vault contract with Layla upgrade loops for dynamic funders and beneficiaries
+// Using CashScript 0.13.0-next.1 for Layla loop support
+
+pragma cashscript ^0.13.0;
+
+contract Vault() {
+    // Contract implementation will go here
+    // Will use Layla upgrade loops to validate funders and beneficiaries dynamically
+}
+

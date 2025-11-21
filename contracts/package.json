@@ -1,0 +1,12 @@
+{
+  "name": "vault-contracts",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "cashc Vault.cash --output dist/Vault.json",
+    "build": "npm run compile"
+  },
+  "devDependencies": {
+    "cashc": "0.13.0-next.1"
+  }
+}
+

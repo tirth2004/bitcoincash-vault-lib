@@ -1,0 +1,28 @@
+{
+  "name": "bitcoincash-vault-lib",
+  "version": "1.0.0",
+  "description": "Bitcoin Cash WalletConnect DApp with Layla Vault - Dynamic funders and beneficiaries",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "contracts"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "build:frontend": "npm run build --workspace=frontend",
+    "build:backend": "npm run build --workspace=backend",
+    "build:contracts": "npm run build --workspace=contracts"
+  },
+  "keywords": [
+    "bitcoin-cash",
+    "cashscript",
+    "walletconnect",
+    "vault",
+    "chipnet"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
